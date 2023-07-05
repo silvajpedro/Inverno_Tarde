@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4b93bf;
+  color: #ffffff;
+}
+header figure {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  border: solid;
+}
+header nav {
+  width: 44vw;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  height: 15vh;
+}
+li {
+  font-size: 20px;
+}
+.primeiraSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+.primeiraSessaoDaMain p {
+  width: 30vw;
+  font-size: 18px;
+  color: #0f468c;
+}
+.segundaSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4b93bf;
+}
+h1 {
+  width: 38vw;
+  font-size: 26px;
+  font-weight: 300;
+  color: #ffff;
+  word-spacing: 6px;
+}
+.segundaSessaoDaMain img {
+  position: relative;
+  left: 45px;
+}
+.terceiraSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+  height: 60vh;
+}
+.terceiraSessaoDaMain figure {
+}
+.terceiraSessaoDaMain img {
+  width: 20vw;
+  height: 44vh;
+}
+.cansado {
+  position: relative;
+  top: 0.9vh;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4b93bf;
+}
